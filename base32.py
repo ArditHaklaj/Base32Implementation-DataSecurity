@@ -1,4 +1,10 @@
-//insertone kodin qetu
+import base64
+def base32_encode(string):
+    """Encodes a string to Base32"""
+    string_bytes = string.encode('utf-8')
+    encoded_bytes = base64.b32encode(string_bytes)
+    encoded_string = encoded_bytes.decode('utf-8')
+    return encoded_string
 
 
 
