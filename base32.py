@@ -15,3 +15,6 @@ def base32_decode(encoded_string):
 //Arditi
 encoded_string = base32_encode("Ky eshte projekti i dyte")
 print(encoded_string)
+//Erblini
+decoded_string = base32_decode(encoded_string)
+print(decoded_string)
