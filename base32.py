@@ -1,3 +1,4 @@
+//Arbnora
 import base64
 def base32_encode(string):
     """Encodes a string to Base32"""
