@@ -12,8 +12,10 @@ def base32_decode(encoded_string):
     decoded_string = decoded_bytes.decode('utf-8')
     return decoded_string
 
+print("Encoded:")
 encoded_string = base32_encode("Ky eshte projekti i dyte")
 print(encoded_string)
 
+print("Decoded:")
 decoded_string = base32_decode(encoded_string)
 print(decoded_string)
